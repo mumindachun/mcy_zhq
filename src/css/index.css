@@ -18,8 +18,8 @@
     width: 30px;
     margin: 20px;
 }
-.icon:hover{
-    background-color: aqua;
+nav div:hover{
+    background-color: rgb(140, 151, 203);
 }
 .main{
     width: 90%;

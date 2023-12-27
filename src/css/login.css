@@ -3,17 +3,17 @@
 }
 body {
     height: 100vh;
-    background-color: rgb(211, 255, 167);
+    background-color: rgb(255, 254, 254);
 }
 div{
     margin: 100px auto;
     width: 300px;
     height: 200px;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(228, 228, 228);
     border-radius: 20px;
     padding: 20px;
     text-align: center;
-    background-color: rgba(145, 145, 145, 0.3);
+    background-color: rgba(140, 151, 203,0.3);
 }
 input[type="text"],
 input[type="password"]{
@@ -35,17 +35,20 @@ td{
 nav{
     height: 40px;
     line-height: 40px; 
-    border: 1px solid black;  
+    border: 1px solid black;
+    background-color: ;  
 }
-nav ul{
-    width: 100%;
-    height: 40px;
-    margin: 0;
-}
-nav li{
+nav a{
     list-style-type: none;
-    display: inline-block;    
-    height: 40px;  
+    display: inline-block;     
     padding: 0 20px;
-    margin: 0;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+nav a:hover{
+    background-color: rgb(140, 151, 203);
+}
+footer{
+    position: absolute;
+    bottom: 0;
 }
