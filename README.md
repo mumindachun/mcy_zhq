@@ -1,3 +1,3 @@
 # mcy_zhq
 
-try to learn sonething
+this is a project for mcy and zhq to leaen
