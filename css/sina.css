@@ -1,0 +1,19 @@
+nav{
+    border-top: 3px solid #ff8500;
+    border-bottom: 1px solid #edeef0;
+    height: 41px;
+    background-color: #fcfcfc;
+    line-height: 41px;
+    color: #4c4c4c;
+}
+nav a{
+    display: inline-block;
+    padding: 0 20px;
+    color: #4c4c4c;
+    font-size: 12px;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #ffffff;
+    color: #ff8500;
+}

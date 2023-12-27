@@ -1,0 +1,12 @@
+a{
+    color: gray;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    font-style: normal;
+    text-decoration: none;
+}
+input:focus{
+    background-color: rgba(132, 207, 165, 0.868);
+}
