@@ -1,3 +1,3 @@
 # mcy_zhq
 
-sss
+try to learn sonething
