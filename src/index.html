@@ -1,14 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>zhuhongqin</title>
-
+    <meta charset="UTF-8" />
+    <!--设置字符集-->
+    <title>myhtml</title>
+    <link rel="stylesheet" href="./css/index.css" />
 </head>
 
 <body>
-    havealooknow
+    <nav class="top">
+        <span class="toolbar">
+            <img class="icon" src="./img/SVGs/70 Basic Icons-all-03.svg" />
+            <img class="icon" src="./img/SVGs/70 Basic Icons-all-13.svg" />
+            <img class="icon" src="./img/SVGs/70 Basic Icons-all-24.svg" />
+            <img class="icon" src="./img/SVGs/70 Basic Icons-all-17.svg" />
+            <img class="icon" src="./img/SVGs/70 Basic Icons-all-11.svg" />
+            <a href="./license.html" target="_blank">
+                <img class="icon" src="./img/SVGs/70 Basic Icons-all-31.svg" />
+            </a>
+            <a href="../file.rar">
+                <img class="icon" src="./img/SVGs/70 Basic Icons-all-40.svg" />
+            </a>
+        </span>
+        <span class="fileview"></span>
+    </nav>
+    <div class="main">
+        <div class="fileview">文件浏览处</div>
+        <div class="fileedit">
+            文件编辑处
+            <h1>这是标题1</h1>
+            <h2>这是标题2</h2>
+            <h3>这是标题3</h3>
+            <h4>这是标题4</h4>
+            <h5>这是标题5</h5>
+            <h6>这是标题6</h6>
+
+            <p>这是段落1，<strong>加粗</strong>效果，<ins>下划线</ins>效果</p>
+            <!--段落之间会分开一段-->
+            <p>这是<br />段落2，<del>删除线</del>效果，<em>倾斜</em>效果</p>
+            <!--换行是单标签-->
+            <div>这是分割</div>
+            <div>div独占一行</div>
+            <span>这是横跨</span>
+            <span>这是span跨距</span>
+            <span>这是span跨距</span>
+
+            <table border="5px" cellsapcing="0">
+                <tr>
+                    <th>表头</th>
+                    <th>表头</th>
+                    <th>表头</th>
+                </tr>
+                <tr>
+                    <td>单元格内文字</td>
+                    <td>单元格内文字</td>
+                    <td>单元格内文字</td>
+                </tr>
+                <tr>
+                    <td>单元格内文字</td>
+                    <td>单元格内文字</td>
+                    <td>单元格内文字</td>
+                </tr>
+                <tr>
+                    <td>单元格内文字</td>
+                    <td>单元格内文字</td>
+                    <td>单元格内文字</td>
+                </tr>
+            </table>
+
+            <ul>
+                <li>列表项1</li>
+                <li>列表项2</li>
+                <li>列表项3</li>
+                <li>列表项4</li>
+                <li>列表项5</li>
+            </ul>
+            <dl>
+                <dt>名词</dt>
+                <dd>名词解释1</dd>
+                <dd>名词解释2</dd>
+            </dl>
+            <!--表单-->
+            <form action="demo.php" method="GET" name="form1">
+                用户名<input type="text" /><br />
+                密码<input type="password" /><br />
+                <div>
+                    性别
+                    <input type="radio" name="gender" value="XY" />男
+                    <input type="radio" name="gender" value="XX" />女
+                    <input type="radio" name="gender" value="OTR" />其他
+                </div>
+                <div>
+                    <input type="checkbox" value="需要纸" />需要纸
+                    <input type="checkbox" value="需要笔" />需要笔
+                    <input type="checkbox" value="需要打印" />需要打印
+                </div>
+                <input type="file" />
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
