@@ -26,3 +26,14 @@ tr{
 td{
     width: 50%;
 }
+.logo{
+    width: 40px;
+}
+nav{
+    height: 40px;
+    line-height: 40px;   
+}
+nav a{
+    display: inline-block;    
+    height: 40px;   
+}
