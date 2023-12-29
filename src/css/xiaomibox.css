@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+	display: inline-block;
+    width: 300px;
+    height: 415px;
+    background-color: blanchedalmond;
+    /* 水平居中 */
+    margin: 100px auto;
+}
+.box img{
+    width: 100%;
+}
+.box p{
+    height: 70px;
+	font-size: 1;
+	/* 没有宽度所以不会撑开 */
+	padding: 0 20px;
+}
+.box .appraise{
+	color:gray;
+	font-size: 12px;
+	/* 没有宽度所以不会撑开 */
+	padding: 0 20px;
+}
+.info h4{
+	display: inline-block;
+	font-size: 14px;
+	margin-top: 15px;
+	padding: 0 20px;
+	font-weight: normal;
+}
+.info em{
+	font-style: normal;
+	color: gray;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+.info span{
+	color: orange;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
