@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    border: 1px solid gray;
+    width: 248px;
+    height: 163px;
+    margin: 100px auto;
+}
+.box h3{
+    height: 32px;
+    /* 行高等于高度实现文字垂直居中 */
+    line-height: 32px;
+    padding: 0 20px;
+    border-bottom: 1px dotted gray;
+    font-size: 14px;
+    font-weight: normal;
+}
+.box li{
+    list-style: none;    
+    padding: 0 20px;
+    height: 23px;
+    line-height: 23px;
+}
+.box a{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;    
+}
+.box a:hover{
+    text-decoration: underline;
+}
