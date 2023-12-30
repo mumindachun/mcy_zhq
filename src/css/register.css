@@ -8,5 +8,5 @@ a:hover{
     text-decoration: none;
 }
 input:focus{
-    background-color: rgba(132, 207, 165, 0.868);
+    background-color: rgb(140, 151, 203);
 }
