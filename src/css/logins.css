@@ -68,7 +68,6 @@ input[type="submit"] {
     font-size: 20px;
     letter-spacing: 3px;
 }
-
 input::placeholder {
     color: #92A7E8;
 }

@@ -20,6 +20,9 @@ input[type="password"]{
     border:1px solid gray;
     border-radius: 5px;
 }
+input[type="button"]{
+    box-shadow: 2px 2px 5px 1px rgb(50, 50, 50);
+}
 table{
     width: 300px;
 }
