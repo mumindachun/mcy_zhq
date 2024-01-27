@@ -1,0 +1,32 @@
+.nav a{
+    /* 行内块 */
+    display: inline-block;
+    /* 设置长宽 */
+    width: 120px;
+    height: 58px;
+    background-color: aqua;
+    /* 文字水平居中 */
+    text-align: center;
+    /* 文字垂直居中 ,通过设置行高实现*/
+    line-height: 58px;
+    /* 取消超链接下划线 */
+    text-decoration: none;
+}
+.nav a:hover{
+    font-size: 20px;
+}
+.nav .main{
+    background-color: red;
+}
+.nav .news{
+    background-color: orange;
+}
+.nav .hot{
+    background-color: yellow;
+}
+.nav .search{
+    background-color:green;
+}
+.nav .personal{
+    background-color: aquamarine;
+}
