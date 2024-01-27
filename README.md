@@ -1,6 +1,5 @@
 # mcy_zhq
 
-this is a project for mcy and zhq to learn
-change
+this is a project for mcy and zhq to
 change from. ipad
-change from pc
+this message change from pc
