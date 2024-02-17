@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lan="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ATM综合案例</title>
+</head>
+
+<body>
+    <h1>ATM综合案例</h1>
+    <script>
+        let choice
+        let money = 0
+        let change = 0
+        while (true) {
+            choice = +prompt("请做出你的选择：\n1.存钱\n2.取钱\n3.查看余额\n4.退出\n")
+            if (choice == 4) {
+                break
+            }
+            else if (choice > 0 && choice < 5) {
+                document.write('<h1>' + choice + '</h1>')
+                switch (choice) {
+                    case 1:
+                        change = +prompt('请输入存入金额:\n')
+                        money += change
+                        break
+                    case 2:
+                        change = +prompt('请输入取出金额:\n')
+                        money -= change
+                        break
+                    case 3:
+                        alert('您的余额为:' + money + '\n')
+                        break
+                    default:
+                        break
+                }
+            }
+        }
+        document.write('done\n')
+    </script>
+</body>
+
+</html>
